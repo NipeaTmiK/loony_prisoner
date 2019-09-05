@@ -31,26 +31,31 @@ margin_right = 3.87708
 texture = ExtResource( 2 )
 expand = true
 
-[node name="DisplayText" type="Label" parent="."]
-margin_left = 24.0
-margin_top = 24.0
-margin_right = 1002.0
-margin_bottom = 87.0
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+editor/display_folded = true
+margin_left = 3.01465
+margin_right = 1027.01
+margin_bottom = 601.0
+
+[node name="DisplayText" type="Label" parent="VBoxContainer"]
+margin_right = 1024.0
+margin_bottom = 63.0
 custom_fonts/font = SubResource( 1 )
 text = "Hello."
 
 [node name="PlayerInput" type="TextEdit" parent="."]
-margin_left = 24.0
-margin_top = 501.0
-margin_right = 917.0
-margin_bottom = 567.0
+margin_left = 41.0
+margin_top = 493.0
+margin_right = 911.0
+margin_bottom = 583.0
 custom_fonts/font = SubResource( 2 )
 
 [node name="PlayerButton" type="TextureButton" parent="."]
+editor/display_folded = true
 margin_left = 932.0
-margin_top = 496.0
-margin_right = 1017.0
-margin_bottom = 580.0
+margin_top = 502.0
+margin_right = 1010.0
+margin_bottom = 582.0
 texture_normal = ExtResource( 4 )
 texture_pressed = ExtResource( 5 )
 expand = true
